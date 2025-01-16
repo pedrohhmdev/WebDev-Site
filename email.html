@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="_css/email.css" />
+    <title>Inscrição - WebDev</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="Index.html"><img id="logo" src="_imagens/Logo.png" alt="Refashion"></a>
+    </header>
+    <!-- Seta voltar -->
+    <a href="PaginaLogin.html" class="seta"><img src="_imagens/seta.png"></a>
+
+
+    <!-- ABA LOGIN EMAIL -->
+    <div class="container">
+        <h2>faça login no refashion</h2>
+        <form action="processar_registro.php" method="post">
+            <label for="nome_completo">Nome Completo</label>
+            <input type="text" id="nome_completo" name="nome_completo" required>
+
+            <label for="celular">Celular</label>
+            <input type="text" id="celular" name="celular" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+
+
+            <!-- Separador login -->
+            <div class="ou-separador">
+                <hr>
+
+                <hr>
+            </div>
+
+
+
+            <div class="checkboxes">
+                <label for="novidades">
+                    <input type="checkbox" id="novidades" name="novidades" class="estilo-checkbox1"> Aceito receber
+                    novidades
+                </label>
+
+                <label for="termos">
+                    <input type="checkbox" id="termos" name="termos" class="estilo-checkbox2"> Estou de acordo com os
+                    termos de serviço e a política de privacidade
+                </label>
+            </div>
+
+            <button id="criarConta" type="submit">
+                <p>Criar Conta</p>
+            </button>
+        </form>
+    </div>
+
+</body>
+
+</html>

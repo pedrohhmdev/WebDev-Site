@@ -1,0 +1,248 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 136px;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+div.logop {
+    position: absolute;
+    top: 25px;
+    left: 912px;
+}
+
+img#logo {
+    width: 80px;
+}
+/* Estilos CSS para o link com a seta */
+.seta {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.seta img {
+    position: absolute;
+    top: 58px;
+    left: 488px;
+    width: 15px;
+    vertical-align: middle;
+}
+/* Estilização da bola */
+.bola {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #00000110;
+    top: 44px;
+    left: 471px; /* Mantém a mesma posição horizontal da seta */
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.seta:hover .bola {
+    opacity: 1;
+}
+
+
+
+
+#qrcode{
+    position: absolute;
+    width: 700px;
+    left: 50%;
+    top: 250px;
+}
+h1#ap{
+    position: absolute;
+    left: 15%;
+    top: 280px;
+    z-index: 999;
+    font-weight: 800;
+    font-size: 110px;
+    width: 500px;
+    color: #002C55;
+    line-height: 130px;
+}
+#apoiador {
+    color: #2D68FF;
+}
+#ajuda {
+    position: absolute;
+    left: 15%;
+    top: 620px;
+    z-index: 999;
+    font-weight: 500;
+    font-size: 40px;
+    width: 700px;
+    color: #002C55;
+    line-height: 60px;
+}
+#apoio {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 100%;
+    font-weight: 700;
+    font-size: 60px;
+    color: #2d68ff;
+    line-height: 60px;
+}
+.conteudo #um {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1100px;
+    z-index: 999;
+    font-weight: 500;
+    font-size: 40px;
+    width: 650px;
+    color: #313131;
+    line-height: 60px;
+    
+}
+.conteudo #dois {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1450px;
+    z-index: 999;
+    font-weight: 500;
+    font-size: 40px;
+    width: 650px;
+    color: #313131;
+    line-height: 60px;
+    
+}
+.conteudo #tres {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    top: 1800px;
+    z-index: 999;
+    font-weight: 500;
+    font-size: 40px;
+    width: 650px;
+    color: #313131;
+    line-height: 60px;
+    
+}
+.conteudo #quatro {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2150px;
+    z-index: 999;
+    font-weight: 500;
+    font-size: 40px;
+    width: 1300px;
+    color: #313131;
+    line-height: 60px;
+    
+}
+span {
+    color: #2d68ff;
+}
+
+
+
+
+
+
+#rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+    top: 2450px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    position: absolute;
+    top: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+
+img#logo-rodape {
+    top: 42px;
+    left: 114px;
+    position: absolute;
+    width: 80px;
+}
+
+footer p#MA {
+    left: 678px;
+    font-weight: 700;
+}
+
+footer p#C {
+    left: 901px;
+    font-weight: 700;
+}
+
+footer p#Co {
+    left: 1122px;
+    font-weight: 700;
+}
+
+footer p#direitos {
+    left: 1455px;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: #000000;
+}   
+/* FECHAMENTO FOOTER*/
+
+
+
+
+
+
+
+/* Estilização da barra de rolagem para todo o site */
+::-webkit-scrollbar {
+    width: 14px; /* Largura da barra de rolagem */
+  }
+  
+  /* Estilo da parte visível da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background: #2d68ff; /* Cor de fundo da barra de rolagem */
+    border-radius: 200px; /* Raio da borda da barra de rolagem */
+    height: -5000000px; /* Altura da barra de rolagem (ajuste conforme necessário) */
+
+  }
+  
+  /* Estilo da parte não visível da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background: #003d80; /* Cor de fundo do trilho */
+    border-radius: 0px; /* Raio da borda do trilho */
+  }
+  
+

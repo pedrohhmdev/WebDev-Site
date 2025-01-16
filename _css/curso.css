@@ -1,0 +1,323 @@
+header {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 136px;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Sombra com deslocamento 0px, 0px e desfoque 10px */
+
+}
+div.logop {
+  position: absolute;
+  top: 25px;
+  left: 912px;
+}
+img#logo {
+  width: 80px;
+}
+
+
+
+/* BARRA DE PESQUISA */
+.search-box {
+  position: absolute;
+  top: 40px;
+  right: 468px;
+  background: rgb(21,43,67);
+  height: 40px;
+  padding: 10px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 40px;
+  width: 0;
+  transition: 0.5s;
+}
+
+::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+
+.search-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(21,43,67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.search-box:hover > .search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn {
+  background: #0048ff;
+}
+
+
+/* Estilos CSS para o link com a seta */
+.seta {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.seta img {
+  position: absolute;
+  top: 38px;
+  left: 468px;
+  width: 15px;
+  vertical-align: middle;
+  padding: 20px;
+}
+/* Estilização da bola */
+.bola {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #00000110;
+  top: 44px;
+  left: 471px; /* Mantém a mesma posição horizontal da seta */
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.seta:hover .bola {
+  opacity: 1;
+}
+
+/* Conteudo curso HTML*/
+div.HTML {
+  position: absolute;
+  cursor: pointer;
+  width: 725px;
+  height: 723px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  background: #FFF;
+  top: 206px;
+  left: 178px;
+  transition: 0.5s transform;
+}
+.HTML p {
+  position: absolute;
+  top: 7px;
+  left: 268px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  color: #2D2F31;
+}
+img#htmlbw {
+  position: absolute;
+  width: 308px;
+  height: 313px;
+  flex-shrink: 0;
+  top: 166px;
+  left: 209px;
+
+}
+
+.saibamais {
+  position: absolute;
+  width: 297px;
+  height: 99px;
+  top: 531px;
+  left: 214px;
+  border-radius: 39px;
+  background: #FF7253;
+}
+.saibamais p {
+  position: absolute;
+  width: 129px;
+  height: 31px;
+  top: 10px;
+  left: 90px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+
+}
+.HTML:hover{
+  
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.398); /* Adiciona uma sombra */;
+  transform: scale(1.05); /* Aumenta o tamanho em 10% (1.1x) quando o mouse passar por cima */
+}
+
+/* Conteudo curso HTML e CSS*/
+div.HTMLCSS {
+  position: absolute;
+  cursor: pointer;
+  width: 725px;
+  height: 723px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  background: #FFF;
+  top: 206px;
+  left: 1003px;
+  transition: 0.5s transform;
+}
+img#htmlbw2 {
+  position: absolute;
+  width: 255px;
+  height: 259.15px;
+  top: 187px;
+  left: 92px;
+}
+p#titulohtml{
+  position: absolute;
+  width: 140px;
+  height: 92px;
+  top: 65px;
+  left: 150px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #2D2F31;
+  
+}
+img#cssbw{
+  position: absolute;
+  width: 255px;
+  height: 259.15px;
+  top: 187px;
+  left: 369px;
+}
+p#titulocss {
+  position: absolute;
+  width: 99px;
+  height: 57px;
+  top: 65px;
+  left: 451px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #2D2F31;
+  
+}
+
+.saibamais2 {
+  position: absolute;
+  width: 297px;
+  height: 99px;
+  top: 531px;
+  left: 214px;
+  border-radius: 39px;
+  background: linear-gradient(90deg, #FF7253 0%, #2F8FFF 100%);
+   
+}
+.saibamais2 p {
+  position: absolute;
+  width: 129px;
+  height: 31px;
+  top: 10px;
+  left: 90px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFF;
+}
+.HTMLCSS:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.398); /* Adiciona uma sombra */;
+  transform: scale(1.05); /* Aumenta o tamanho em 10% (1.1x) quando o mouse passar por cima */
+}
+
+
+/* Estilização da barra de rolagem para todo o site */
+::-webkit-scrollbar {
+    width: 14px; /* Largura da barra de rolagem */
+  }
+  /* Estilo da parte visível da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background: #2d68ff; /* Cor de fundo da barra de rolagem */
+    border-radius: 200px; /* Raio da borda da barra de rolagem */
+    height: -5000000px; /* Altura da barra de rolagem (ajuste conforme necessário) */
+
+  }
+  /* Estilo da parte não visível da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background: #003d80; /* Cor de fundo do trilho */
+    border-radius: 0px; /* Raio da borda do trilho */
+  }
+  
+
+/*RODAPE*/
+img#logo-rodape {
+  top: 42px;
+  left: 114px;
+  position: absolute;
+  width: 80px;
+}
+footer p#MA {
+  position: absolute;
+  Top: 70px;
+  Left: 678px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+
+}
+footer p#C {
+  position: absolute;
+  Top: 70px;
+  Left: 901px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+}
+footer p#Co {
+  position: absolute;
+  Top: 70px;
+  Left: 1122px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+
+}
+footer p#direitos {
+  position: absolute;
+  Top: 70px;
+  Left: 1455px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+
+}
+#rodape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10rem;  
+  top: 1897px;  
+  background-color: #ffffff;   
+  color: rgba(0, 0, 0, 1);  
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Sombra com deslocamento 0px, 0px e desfoque 10px */
+
+}
+footer#rodape a {
+  text-decoration: none;
+  color: #000000;
+}   
+/* FECHAMENTO FOOTER*/

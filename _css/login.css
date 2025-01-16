@@ -1,0 +1,281 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(226, 224, 226);
+    width: 100%;
+    height: 71px;
+}
+img#logo{
+    position: absolute;
+    width: 40px;
+    left: 940px;
+    top: 16px;
+}
+
+/* SEPARADOR */
+.ou-separador {
+    display: flex;
+    align-items: center;
+    margin: 235px 800px;
+}
+hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid rgb(223, 223, 223);
+}
+.ou-separador p {
+    margin: 0 10px;
+    color: #3f3f3f;
+    font-weight: bold;
+}
+
+
+/* BOTÕES */
+.botoes {
+    margin: 0 800px;
+}
+.botao {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.botao img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+button {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* BOTÃO GOOGLE */
+.botao-google {
+    position: absolute;
+    left: 772px;
+    top: 122px;
+    text-align: left; /* Alinha o conteúdo do botão à esquerda */
+    display: inline-block; /* Permite centralizar horizontalmente */
+}
+.botao-google button {
+    height: 48px;
+    width: 376px;
+    background-color: #ffffff; /* Cor do Google */
+    color: rgb(34,34,34);
+    display: flex;
+    justify-content: center; /* Centraliza verticalmente o texto */
+    align-items: center;
+    margin-bottom: 10px;
+    border: solid 1px rgb(230,225,221);
+    border-radius: 15pt;
+    display: flex;
+    align-items: center;
+    transition: border 0.3s ease; /* Transição de 0.3 segundos na cor de fundo */
+}
+.botao-google img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 15px;
+}
+.botao-google button {
+    font-weight: 700;
+}
+.botao-google button:hover {
+    background-color: #ffffff;
+    border: solid 1.5px rgb(155, 155, 155);
+}
+
+
+/* BOTÃO FACEBOOK */
+.botao-facebook {
+    position: absolute;
+    left: 772px;
+    top: 190px;
+    text-align: left; /* Alinha o conteúdo do botão à esquerda */
+    display: inline-block; /* Permite centralizar horizontalmente */
+}
+.botao-facebook button {
+    height: 48px;
+    width: 376px;
+    background-color:rgb(44,84,174); /* Cor do Google */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center; /* Centraliza verticalmente o texto */
+    align-items: center;
+    margin-bottom: 10px;
+    border: solid 1px rgb(230,225,221);
+    border-radius: 15pt;
+    display: flex;
+    align-items: center;
+    transition: border 0.3s ease; /* Transição de 0.3 segundos na cor de fundo */
+    transition: background-color 0.3s ease; /* Transição de 0.3 segundos na cor de fundo */
+    transition: border 0.3s ease;
+}
+.botao-facebook img {
+    position: absolute;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    left: 15px;
+}
+.botao-facebook button {
+    font-weight: 700;
+}
+.botao-facebook button:hover {
+    background-color: rgb(58, 105, 214);
+    border: solid 1.5px rgb(58,105,214);
+}
+
+
+/* BOTÃO EMAIL */
+.botao-email {
+    position: absolute;
+    left: 772px;
+    top: 258px;
+    text-align: left; /* Alinha o conteúdo do botão à esquerda */
+    display: inline-block; /* Permite centralizar horizontalmente */
+}
+.botao-email button {
+    height: 48px;
+    width: 376px;
+    font-weight: 700;
+    background-color:#0032b1; /* Cor do Google */
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center; /* Centraliza verticalmente o texto */
+    align-items: center;
+    margin-bottom: 10px;
+    border: solid 1px rgb(230,225,221);
+    border-radius: 15pt;
+    display: flex;
+    align-items: center;
+    transition: border 0.3s ease; /* Transição de 0.3 segundos na cor de fundo */
+    transition: background-color 0.3s ease; /* Transição de 0.3 segundos na cor de fundo */
+    transition: border 0.3s ease;
+}
+.botao-email button:hover {
+    background-color: #0048ff;
+    border: solid 1.5px #0048ff;
+}
+.botao-email a:hover {
+    text-decoration: none;
+}
+
+/* BOTÃO CRIAR CONTA */
+.criar-conta {
+    position: absolute;
+    left: 772px;
+    top: 375px;
+    text-align: left;
+    display: inline-block;
+}
+
+/* Estilos para o link dentro de .criar-conta */
+.criar-conta a {
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+}
+
+/* Estilos para o botão dentro de .criar-conta */
+.criar-conta button {
+    height: 48px;
+    width: 376px;
+    background-color: white;
+    border: solid 1px #0048ff;
+    color: #0048ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 15pt;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Adicionado um único comando 'transition' para todas as transições */
+}
+
+.criar-conta button:hover {
+    background-color: #4177ff;
+    border: solid 1.5px #4177ff;
+    color: white;
+}
+
+/* Estilos CSS para o link com a seta */
+.seta {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.seta img {
+    position: absolute;
+    top: 25px;
+    left: 378px;
+    width: 10px;
+    vertical-align: middle;
+}
+
+.seta:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilização da barra de rolagem para todo o site */
+::-webkit-scrollbar {
+    width: 14px; /* Largura da barra de rolagem */
+  }
+  
+  /* Estilo da parte visível da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background: #2d68ff; /* Cor de fundo da barra de rolagem */
+    border-radius: 200px; /* Raio da borda da barra de rolagem */
+    height: -5000000px; /* Altura da barra de rolagem (ajuste conforme necessário) */
+
+  }
+  
+  /* Estilo da parte não visível da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background: #003d80; /* Cor de fundo do trilho */
+    border-radius: 0px; /* Raio da borda do trilho */
+  }
+  
+
+

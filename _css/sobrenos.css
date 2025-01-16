@@ -1,0 +1,188 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 136px;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Sombra com deslocamento 0px, 0px e desfoque 10px */
+
+}
+div.logop {
+    position: absolute;
+    top: 25px;
+    left: 912px;
+}
+img#logo {
+    width: 80px;
+}
+
+/* Estilos CSS para o link com a seta */
+.seta {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.seta img {
+    position: absolute;
+    top: 38px;
+    left: 468px;
+    width: 15px;
+    vertical-align: middle;
+    padding: 20px;
+}
+/* Estilização da bola */
+.bola {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #00000110;
+    top: 44px;
+    left: 471px; /* Mantém a mesma posição horizontal da seta */
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.seta:hover .bola {
+    opacity: 1;
+}
+
+
+
+h1{
+    text-align: center;
+    color: #2D68FF;
+    font-size: 60px;
+    padding-top: 180px;
+}
+.conteudo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.conteudo p{
+    text-align: justify;
+    color: #0e0e0e;
+    font-size: 30px;
+    padding-top: 70px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RODAPE*/
+img#logo-rodape {
+    top: 42px;
+    left: 114px;
+    position: absolute;
+    width: 80px;
+}
+
+footer p#MA {
+    position: absolute;
+    Top: 70px;
+    Left: 678px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+
+}
+
+footer p#C {
+    position: absolute;
+    Top: 70px;
+    Left: 901px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+}
+
+footer p#Co {
+    position: absolute;
+    Top: 70px;
+    Left: 1122px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+
+}
+
+footer p#direitos {
+    position: absolute;
+    Top: 70px;
+    Left: 1455px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+
+}
+
+#rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;  
+    top: 1850px;  
+    background-color: #ffffff;   
+    color: rgba(0, 0, 0, 1);  
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Sombra com deslocamento 0px, 0px e desfoque 10px */
+
+  }
+footer#rodape a {
+    text-decoration: none;
+    color: #000000;
+}   
+/* FECHAMENTO FOOTER*/
+
+
+
+
+
+
+
+/* Estilização da barra de rolagem para todo o site */
+::-webkit-scrollbar {
+    width: 14px; /* Largura da barra de rolagem */
+  }
+  
+  /* Estilo da parte visível da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background: #2d68ff; /* Cor de fundo da barra de rolagem */
+    border-radius: 200px; /* Raio da borda da barra de rolagem */
+    height: -5000000px; /* Altura da barra de rolagem (ajuste conforme necessário) */
+
+  }
+  
+  /* Estilo da parte não visível da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background: #003d80; /* Cor de fundo do trilho */
+    border-radius: 0px; /* Raio da borda do trilho */
+  }
+  
+
+
+
